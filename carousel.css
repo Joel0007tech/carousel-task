@@ -41,59 +41,60 @@ p {
   text-align: center;
 }
 .img {
- display: none;
- margin-left:350px;
+  display: none;
+  margin-left: 350px;
 }
-.backward-button{
+.backward-button {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color:rgb(127, 140, 255);
-  background-color:blue;
-  font-weight: bold;
-  font-size:30px;
-  transition: 0.6s ease;
-  border-radius:50px;
-  user-select: none;
-  left:22.4rem;
-  opacity:0;
-}
-.forward-button{
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color:rgb(127, 187, 255);
-  background-color:blue;
+  color: rgb(127, 140, 255);
+  background-color: blue;
   font-weight: bold;
   font-size: 30px;
   transition: 0.6s ease;
-  border-radius:50px;
+  border-radius: 50px;
   user-select: none;
-  left:65rem;
+  left: 22.4rem;
   opacity: 0;
-
+}
+.forward-button {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(127, 187, 255);
+  background-color: blue;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 50px;
+  user-select: none;
+  left: 65rem;
+  opacity: 0;
 }
 
-.backward-button:hover{
-
-opacity: 1;
+.backward-button:hover {
+  opacity: 1;
 }
-.forward-button:hover{
-opacity: 1;  
+.forward-button:hover {
+  opacity: 1;
 }
 .vanish {
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@keyframes Vanish{
-  from {opacity: .4}
-  to {opacity: 1}
+@keyframes Vanish {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-
